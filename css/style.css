@@ -10,6 +10,38 @@ body {
     font-size: 15px;
 }
 
+
+/* intestazione pagina web */
+header {
+    background-image: url('../img/wall.png');
+    background-size: 470px;
+    height: 150px;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+/* titolo pagina in intestazione */
 h1 {
     font-family: 'Edu Tas Beginner', 'sans-serif';
+    text-align: center;
+    font-size: 85px;
+    line-height: 150px;
 }
+
+/* contenuto principale pagina */
+main {
+    background-image: url('../img/cork.png');
+    height: 803px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.photo-cont {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+

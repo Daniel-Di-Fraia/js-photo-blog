@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Sometype Mono', 'monospace';
+    font-family: 'Dancing Script', 'monospace';
     font-size: 15px;
 }
 
@@ -54,13 +54,19 @@ main {
 .col-main {
     /* DEBUG */
     background-color: white;
-    border: 1px solid black;
-    height: 330px;
+    /* border: 1px solid black;
+    height: 330px; */
     width: 292px;
 }
 
 .pics {
     height: 265px;
     margin: 16px 13px;
+}
+
+aside {
+    padding-bottom: 20px;
+    padding-left: 16px;
+    font-size: 20px;
 }
 

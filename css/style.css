@@ -46,7 +46,7 @@ main {
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 25px;
+    gap: 35px;
     justify-content: center;
     
 }
@@ -58,6 +58,9 @@ main {
     height: 330px; */
     width: 292px;
     position: relative;
+    box-shadow: 5px 5px 5px black;
+    text-decoration: none;
+    color: black;
 }
 
 .pics {
@@ -82,5 +85,13 @@ main {
     position:absolute;
     bottom: 350px;
     left: 125px;
+}
+
+.col-main:hover #pin {
+    display: none;
+}
+
+.col-main:hover {
+    transform: rotate(12deg) scale(1.10);
 }
 

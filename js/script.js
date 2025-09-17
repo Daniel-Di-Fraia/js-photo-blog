@@ -20,12 +20,12 @@ axios.get(apiPics).then((response) => {
 
         //per ogni pic/card aggiungiamo un pezzo alla nostra sezione
         card += `
-            <div class="col-main">
+            <a href="#" class="col-main">
                 <img class="pics" src="${singleImg.url}" alt="${singleImg.title}">
                 <aside class="data">${singleImg.date}</aside>
                 <aside class="evento">${singleImg.title}</aside>
                 <img src="img/pin.svg" alt="pin" id="pin">
-            </div>`;
+            </a>`;
         });
 
         //definiamo output tramite stringa in HTML

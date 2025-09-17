@@ -34,6 +34,7 @@ main {
     height: 803px;
     margin: 0 auto;
     width: 100%;
+    padding-top: 50px;
 }
 
 .photo-cont {
@@ -41,7 +42,19 @@ main {
     margin: 0 auto;
 }
 
+/* pics in main */
 .row {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col-main {
+    /* DEBUG */
+    background-color: red;
+    border: 1px solid black;
+    height: 150px;
+    width: 49%;
+    
 }
 

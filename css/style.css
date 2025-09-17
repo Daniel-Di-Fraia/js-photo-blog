@@ -31,14 +31,14 @@ h1 {
 /* contenuto principale pagina */
 main {
     background-image: url('../img/cork.png');
-    height: 803px;
     margin: 0 auto;
     width: 100%;
     padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 .photo-cont {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -67,6 +67,6 @@ main {
 aside {
     padding-bottom: 20px;
     padding-left: 16px;
-    font-size: 20px;
+    font-size: 22px;
 }
 

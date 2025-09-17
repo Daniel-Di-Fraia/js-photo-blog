@@ -57,6 +57,7 @@ main {
     /* border: 1px solid black;
     height: 330px; */
     width: 292px;
+    position: relative;
 }
 
 .pics {
@@ -68,5 +69,11 @@ aside {
     padding-bottom: 20px;
     padding-left: 16px;
     font-size: 22px;
+}
+
+#pin {
+    position:absolute;
+    bottom: 320px;
+    left: 125px;
 }
 

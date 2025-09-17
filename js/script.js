@@ -23,6 +23,7 @@ axios.get(apiPics).then((response) => {
             <div class="col-main">
                 <img class="pics" src="${singleImg.url}" alt="${singleImg.title}">
                 <aside>${singleImg.title}</aside>
+                <img src="img/pin.svg" alt="pin" id="pin">
             </div>`;
         });
 

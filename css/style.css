@@ -46,15 +46,21 @@ main {
 .row {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 25px;
+    justify-content: center;
+    
 }
 
 .col-main {
     /* DEBUG */
-    background-color: red;
+    background-color: white;
     border: 1px solid black;
-    height: 150px;
-    width: 49%;
-    
+    height: 330px;
+    width: 292px;
+}
+
+.pics {
+    height: 265px;
+    margin: 16px 13px;
 }
 

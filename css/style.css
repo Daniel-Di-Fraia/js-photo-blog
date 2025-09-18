@@ -133,8 +133,9 @@ main {
     border-radius: 50%;
     border: 2px solid black;
     background-image: url('../img/cork.png');
-    font-weight: 900;
+    font-weight: 800;
     transition: 0.3s ease;
+    color: black;
 }
 
 .d-none {

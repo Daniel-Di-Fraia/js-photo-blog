@@ -93,6 +93,7 @@ main {
 
 .col-main:hover {
     transform: rotate(12deg) scale(1.10);
+    transition: 0.3s;
     z-index: 900;
 }
 

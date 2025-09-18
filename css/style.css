@@ -15,7 +15,7 @@ body {
 header {
     background-image: url('../img/wall.png');
     background-size: 470px;
-    height: 150px;
+    /* height: 150px; */
     /* position: fixed; */
     /* width: 100%; */
 }

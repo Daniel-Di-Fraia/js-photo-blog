@@ -50,7 +50,7 @@ axios.get(apiPics).then((response) => {
 
         //per ogni pic/card sull overlay aggiungiamo HTML in pagina
         over = `<img src="${imgUrl}" alt="${titleImg}" class="bigImg">
-                <button class="btn">Chiudi</button>`;
+                <button class="btn">X</button>`;
             // console.log(over);
 
             //definiamo output tramite stringa in HTML

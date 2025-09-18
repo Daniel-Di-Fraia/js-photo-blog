@@ -111,7 +111,7 @@ main {
   height: 100%;
   background-color: rgba(0,0,0,0.7);
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   z-index: 999; 
@@ -125,7 +125,7 @@ main {
 /* bottone chiudi overlay */
 .btn {
     z-index: 999;
-    margin-bottom: 30px;
+    margin-top: 30px;
     height: 60px;
     width: 60px;
     font-size: 30px;

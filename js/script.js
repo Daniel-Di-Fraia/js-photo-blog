@@ -16,18 +16,32 @@ axios.get(apiPics).then((response) => {
 
     //utilizziamo i dati per creare le cards
     cardImg.forEach(singleImg => {
-        console.log(singleImg);
+        // console.log(singleImg);
 
         //per ogni pic/card aggiungiamo un pezzo alla nostra sezione
         card += `
-            <a href="#" class="col-main">
+            <div class="col-main">
                 <img class="pics" src="${singleImg.url}" alt="${singleImg.title}">
                 <aside class="data">${singleImg.date}</aside>
                 <aside class="evento">${singleImg.title}</aside>
                 <img src="img/pin.svg" alt="pin" id="pin">
-            </a>`;
+            </div>`;
         });
 
         //definiamo output tramite stringa in HTML
         cardContainer.innerHTML = card;
+
+        //richiamiamo tutte le card della pagina
+    const allCards = document.querySelectorAll(".col-main");
+    console.log(allCards);
+
+    //ogni card avrà un click event
+    allCards.forEach(singleCard => {
+        singleCard.addEventListener("click", () => {
+            alert("forza roma");
+        });
+    });
 });
+
+
+    

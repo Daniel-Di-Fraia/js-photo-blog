@@ -125,7 +125,11 @@ main {
     height: 40px;
     width: 100px;
     font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    border: 1px solid black;
 }
-/* .d-none {
+
+.d-none {
     display: none;
-} */
+}

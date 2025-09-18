@@ -4,6 +4,12 @@ const cardContainer = document.querySelector(".photo-cont");
 //settiamo endpoint di API
 const apiPics = 'https://lanciweb.github.io/demo/api/pictures/';
 
+//richiamiamo il container dell'overlay
+const overlay = document.querySelector(".box");
+
+//richiamiamo il bottone per la chiusura
+const bottone = document.querySelector(".btn");
+
 
 //generiamo le 6 immagini tramite chiamata ajax
 axios.get(apiPics).then((response) => {
@@ -38,7 +44,10 @@ axios.get(apiPics).then((response) => {
     //ogni card avrà un click event
     allCards.forEach(singleCard => {
         singleCard.addEventListener("click", () => {
-            alert("forza roma");
+            overlay.classList.remove("d-none");
+            bottone.addEventListener("click", () => {
+                overlay.classList.add("d-none");
+            });
         });
     });
 });

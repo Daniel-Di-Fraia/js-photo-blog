@@ -58,7 +58,7 @@ main {
     height: 330px; */
     width: 292px;
     position: relative;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 3px 3px black;
     text-decoration: none;
     color: black;
 }
@@ -94,6 +94,7 @@ main {
 .col-main:hover {
     transform: rotate(12deg) scale(1.10);
     transition: 0.3s;
+    box-shadow: 5px 5px 5px black;
     z-index: 900;
 }
 

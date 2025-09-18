@@ -43,10 +43,17 @@ axios.get(apiPics).then((response) => {
 
     allCards.forEach(singleCard => {
         singleCard.addEventListener("click", () => {
-            //prendiamo i dati necessari per l overlay direttamente dal DOM tramite attributo
+            //prendiamo i dati necessari per l overlay direttamente dal DOM tramite attributo data
             //(visto in documentazione)
             const imgUrl = singleCard.dataset.url;
             const titleImg = singleCard.dataset.title;
+            // console.log(singleCard);
+            
+            //soluzione tramite queryselector
+            // let imgUrl = singleCard.querySelector(".pics").src;
+            // let titleImg = singleCard.querySelector(".evento").textContent;
+            
+            
 
         //per ogni pic/card sull overlay aggiungiamo HTML in pagina
         over = `<img src="${imgUrl}" alt="${titleImg}" class="bigImg">
